@@ -1,6 +1,6 @@
 # youtube-to-resolve-Windows
 
-This lua provides a user interface for downloading videos from YouTube and other platforms using `yt-dlp`. It allows users to input a video URL and download the video with specified codecs, managing files effectively within a project structure.
+This lua provides a user interface for downloading videos from YouTube and other platforms directly into Davinci Resolve using `yt-dlp`. It allows users to input a video URL and download the video with specified codecs, managing files effectively within a project structure.
 
 ## Features
 

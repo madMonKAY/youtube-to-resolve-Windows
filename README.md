@@ -25,7 +25,7 @@ Before using this script, ensure you have the following dependencies installed:
 
 1. Download the lua file and copy it into `C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\Comp`
 2. Ensure that yt-dlp and ffmpeg are installed and available in your system's PATH.
-3. In Davinci Resolve go to: `Workspace > Scripts > ytdlp-Resolve
+3. In Davinci Resolve go to: `Workspace > Scripts > Comp > ytdlp-Resolve
 
 
 # Changes
@@ -40,7 +40,6 @@ Before using this script, ensure you have the following dependencies installed:
    - Removed the format selection feature. The `Get Formats` button and associated `TextEdit` for displaying formats were removed.
 
 3. **URL Handling**:
-   - Added validation for YouTube URLs to ensure they are valid and to trim any parameters after an `&`.
    - Enclosed the URL in double quotes in the command to properly handle special characters.
 
 4. **File Handling**:
